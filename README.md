@@ -40,6 +40,10 @@ Stock Symbol | Starting Price | Ending Price | Total Volume
 ------------ | -------------  | ------------- | -------------  |
 AY | 19.47 | 21.21 | 136070900
 
+Another advantage was the use of a timer function to demonstrate how quickly the code was performing.
+* [Original vs Refactors for 2017 Stock Data](VBA_Challenge_2017.PNG)
+* [Original vs Refactors for 2018 Stock Data](VBA_Challenge_2018.PNG)
+
 This is a huge advantage in programming and data analysis.  
 The primary disadvantage of this specific refactor?  This is difficult to say & is subject to opinion.  
 * Perhaps the *tickerIndex* could have been used to step through the stock data and exit the loop when the symbol changed?  
