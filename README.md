@@ -27,7 +27,7 @@ Refactoring code provides a couple of key advantages:
 1. Improving efficiency when running.  This reduces strain on system resources & reduces wait time for end user.
 2. Introducing & inceasing exception handling.  Initial iteration of creating code often overlooks error handling.
     Example:  Return Calculation may run into divide by zero error if [tickerStartingPrices is zero](https://blog.mywallst.com/can-stocks-go-to-zero/)
-```
+```VBA
 Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
 ```
 [The primary disadvantage to refactoring code is the ROI.](https://thenewstack.io/refactoring-is-not-bad-until-it-is/)  Before refactoring, the issue being addressed needs to be weighed against the needs of the business, the impact the code is having on the business, and the resources available to refactor.
